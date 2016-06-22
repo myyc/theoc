@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <script>
+        {% include "js/oparams.js" %}
+    </script>
+    <script>
+        {% include "js/misc.js" %}
+    </script>
+    <script src="https://s3-eu-west-1.amazonaws.com/widget.cloud.opta.net/2.0/js/widgets.opta.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script>
+        {% include "js/" + feed + ".js" %}
+    </script>
+</head>
+<body>
+<div id="data"></div>
+</body>
+</html>
